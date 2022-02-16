@@ -7,20 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7019F424276C972A001B57A4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7019F423276C972A001B57A4 /* Model.swift */; };
+		7019F426276CA67D001B57A4 /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7019F425276CA67D001B57A4 /* GlobalHelpers.swift */; };
+		70491FE92779BD7A00322D39 /* AddTagScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70491FE82779BD7A00322D39 /* AddTagScreen.swift */; };
+		70491FEC2779C53300322D39 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70491FEB2779C53300322D39 /* TagView.swift */; };
+		70491FEE2779C54000322D39 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70491FED2779C54000322D39 /* Tag.swift */; };
 		70849F10276A614D0092F58F /* NeramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70849F0F276A614D0092F58F /* NeramApp.swift */; };
 		70849F12276A614D0092F58F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70849F11276A614D0092F58F /* ContentView.swift */; };
 		70849F14276A61520092F58F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70849F13276A61520092F58F /* Assets.xcassets */; };
 		70849F17276A61520092F58F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70849F16276A61520092F58F /* Preview Assets.xcassets */; };
+		7099C23C2771AFCF00DEF5A8 /* AddCategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7099C23B2771AFCF00DEF5A8 /* AddCategoryViewModel.swift */; };
+		7099C23E2771B0E700DEF5A8 /* ListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7099C23D2771B0E700DEF5A8 /* ListTest.swift */; };
+		7099C2412771FF5200DEF5A8 /* AddCategoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7099C2402771FF5200DEF5A8 /* AddCategoryScreen.swift */; };
+		7099C243277210AE00DEF5A8 /* AddActivityScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7099C242277210AE00DEF5A8 /* AddActivityScreen.swift */; };
 		70A3AC27276A61FD00E78086 /* NeramModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70A3AC25276A61FD00E78086 /* NeramModel.xcdatamodeld */; };
+		70A3AC2A276A62A700E78086 /* CoreDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A3AC29276A62A700E78086 /* CoreDataProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7019F423276C972A001B57A4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		7019F425276CA67D001B57A4 /* GlobalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
+		70491FE82779BD7A00322D39 /* AddTagScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTagScreen.swift; sourceTree = "<group>"; };
+		70491FEB2779C53300322D39 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		70491FED2779C54000322D39 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
 		70849F0C276A614D0092F58F /* Neram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70849F0F276A614D0092F58F /* NeramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeramApp.swift; sourceTree = "<group>"; };
 		70849F11276A614D0092F58F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		70849F13276A61520092F58F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70849F16276A61520092F58F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7099C23B2771AFCF00DEF5A8 /* AddCategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryViewModel.swift; sourceTree = "<group>"; };
+		7099C23D2771B0E700DEF5A8 /* ListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTest.swift; sourceTree = "<group>"; };
+		7099C2402771FF5200DEF5A8 /* AddCategoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryScreen.swift; sourceTree = "<group>"; };
+		7099C242277210AE00DEF5A8 /* AddActivityScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityScreen.swift; sourceTree = "<group>"; };
 		70A3AC26276A61FD00E78086 /* NeramModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NeramModel.xcdatamodel; sourceTree = "<group>"; };
+		70A3AC29276A62A700E78086 /* CoreDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +54,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70491FEA2779C51D00322D39 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				70491FEB2779C53300322D39 /* TagView.swift */,
+				70491FED2779C54000322D39 /* Tag.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		70849F03276A614D0092F58F = {
 			isa = PBXGroup;
 			children = (
@@ -53,11 +82,18 @@
 		70849F0E276A614D0092F58F /* Neram */ = {
 			isa = PBXGroup;
 			children = (
+				70491FEA2779C51D00322D39 /* Views */,
+				7099C23F2771FF2E00DEF5A8 /* Screens */,
+				7099C23A2771AADD00DEF5A8 /* View Models */,
+				70A3AC28276A628100E78086 /* Providers */,
 				70849F0F276A614D0092F58F /* NeramApp.swift */,
 				70849F11276A614D0092F58F /* ContentView.swift */,
 				70849F13276A61520092F58F /* Assets.xcassets */,
 				70849F15276A61520092F58F /* Preview Content */,
 				70A3AC25276A61FD00E78086 /* NeramModel.xcdatamodeld */,
+				7019F423276C972A001B57A4 /* Model.swift */,
+				7019F425276CA67D001B57A4 /* GlobalHelpers.swift */,
+				7099C23D2771B0E700DEF5A8 /* ListTest.swift */,
 			);
 			path = Neram;
 			sourceTree = "<group>";
@@ -68,6 +104,32 @@
 				70849F16276A61520092F58F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7099C23A2771AADD00DEF5A8 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				7099C23B2771AFCF00DEF5A8 /* AddCategoryViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		7099C23F2771FF2E00DEF5A8 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				7099C2402771FF5200DEF5A8 /* AddCategoryScreen.swift */,
+				7099C242277210AE00DEF5A8 /* AddActivityScreen.swift */,
+				70491FE82779BD7A00322D39 /* AddTagScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		70A3AC28276A628100E78086 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				70A3AC29276A62A700E78086 /* CoreDataProvider.swift */,
+			);
+			path = Providers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +202,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70491FE92779BD7A00322D39 /* AddTagScreen.swift in Sources */,
+				7019F426276CA67D001B57A4 /* GlobalHelpers.swift in Sources */,
+				7099C23C2771AFCF00DEF5A8 /* AddCategoryViewModel.swift in Sources */,
+				7019F424276C972A001B57A4 /* Model.swift in Sources */,
 				70849F12276A614D0092F58F /* ContentView.swift in Sources */,
+				7099C243277210AE00DEF5A8 /* AddActivityScreen.swift in Sources */,
 				70A3AC27276A61FD00E78086 /* NeramModel.xcdatamodeld in Sources */,
+				7099C23E2771B0E700DEF5A8 /* ListTest.swift in Sources */,
+				7099C2412771FF5200DEF5A8 /* AddCategoryScreen.swift in Sources */,
 				70849F10276A614D0092F58F /* NeramApp.swift in Sources */,
+				70A3AC2A276A62A700E78086 /* CoreDataProvider.swift in Sources */,
+				70491FEC2779C53300322D39 /* TagView.swift in Sources */,
+				70491FEE2779C54000322D39 /* Tag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

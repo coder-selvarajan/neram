@@ -11,7 +11,8 @@ import SwiftUI
 struct NeramApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ListTest().colorScheme(ColorScheme.light)
+//            AddTagScreen()
         }
     }
 }

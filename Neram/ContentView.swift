@@ -9,8 +9,29 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("Hello, world!")
+                .padding()
+            
+            Button(action: {
+                print("Button pressed")
+            }, label: {
+                Text("Button")
+                
+            })
+            
+            GroupBox {
+                Text("**E-mail:** myemail@mail.com")
+                
+                GroupBox {
+                    Text("Not available on the weekends")
+                    GroupBox {
+                        Text("but on next weekend")
+                    }
+                }
+            }
+        }
+        
     }
 }
 
